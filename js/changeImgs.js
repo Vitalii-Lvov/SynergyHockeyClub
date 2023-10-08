@@ -56,7 +56,7 @@ function changeimgs() {
 
 	var pictrel = pictW / pictH;
 
-	if ((pictW > 0) && (pictH > 0)) // Картинка еще не загрузилась
+	if ((pictW > 0) && (pictH > 0)) // Проверяем, что картинка еще не загрузилась
 	{
 
 	}
@@ -109,7 +109,7 @@ function changeimgs() {
 	opaq1 = opaq1 + dir;
 	opaq2 = opaq2 - dir;
 
-	// Logo size
+	// Изменение размера лого в зависимости от экрана
 	let cw = window.innerWidth;
 	let ch = window.innerHeight;
 
