@@ -109,7 +109,7 @@ function changeimgs() {
 	opaq1 = opaq1 + dir;
 	opaq2 = opaq2 - dir;
 
-	// Logo size
+	// Изменение размера лого в зависимости от экрана
 	let cw = window.innerWidth;
 	let ch = window.innerHeight;
 
