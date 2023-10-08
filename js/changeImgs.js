@@ -56,7 +56,7 @@ function changeimgs() {
 
 	var pictrel = pictW / pictH;
 
-	if ((pictW > 0) && (pictH > 0)) // Картинка еще не загрузилась
+	if ((pictW > 0) && (pictH > 0)) // Проверяем, что картинка еще не загрузилась
 	{
 
 	}
