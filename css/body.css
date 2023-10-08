@@ -55,29 +55,9 @@ body {
     /* background:#66ccff; */
 }
 
-
-
-/* .wrapper {
-    position: relative;
-    min-height: 100%;
-  }
-  .content {
-    padding-bottom: 90px;
-  }
-  .footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-  } */
-
-
-
-.buttonSignIn {
-    background-color: #003cff;
-    border: none;
-    color: white;
+.inputTextBox {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 13px;
     text-align: center;
     text-decoration: none;
@@ -85,9 +65,50 @@ body {
     font-size: 19px;
     margin: 4px 2px;
     border-radius: 22px;
+    border-width: 1;
+    border-style: solid;
+    border-color: #003cff;
+    min-inline-size: 146px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonSignIn {
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 22px;
+    background-color: #003cff;
+    border: none;
     min-inline-size: 146px;
     width: 146px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#statusText {
+    background-color: #ffffff;
+    color: #ff0000;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 22px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff0000;
+    min-inline-size: 146px;
+    width: 250px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    display: inline-block;
+    opacity: 0;
+    transition:visibility 1s linear,opacity 1s linear;
 }
 
 h1 {

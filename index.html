@@ -21,6 +21,8 @@
         <link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png" />
         <link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png" />
 
+        <script src="js/signIn.js"></script>
+
     </head>
     <body>
 
@@ -35,8 +37,24 @@
                             height="431">
                     </div>
 
-                    <div>
-                        <button class="buttonSignIn">Войти</button>
+                    <div id="loginBox">
+
+                        <div>
+                            <input class="inputTextBox" id="login" placeholder="Введите логин"></input>
+                        </div>
+
+                        <div>
+                            <input class="inputTextBox" id="password" placeholder="Введите пароль"></button>
+                        </div>
+
+                    </div>
+
+                    <div id="buttonSignInBox">
+                        <button class="buttonSignIn" onclick="signIn()">Войти</button>
+                    </div>
+
+                    <div id="statusBox">
+                        <text id="statusText"></text>
                     </div>
 
                 </div>
