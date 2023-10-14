@@ -1,79 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Хоккейный клуб Синергия</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/body.css" />
 
-        <link rel="icon" href="favicon.ico" sizes="16x16">
-        <!--<link rel="icon" href="favicon-32.png" sizes="32x32">-->
-        <link rel="icon" href="favicon-48.png" sizes="48x48">
-        <link rel="icon" href="favicon-57.png" sizes="57x57">
-        <link rel="icon" href="favicon-64.png" sizes="64x64">
-        <link rel="icon" href="favicon-72.png" sizes="72x72">
-        <link rel="icon" href="favicon-114.png" sizes="114x114">
-        <link rel="icon" href="favicon-128.png" sizes="128x128">
-        <link rel="icon" href="favicon-512.png" sizes="512x512">
+<head>
+    <title>Хоккейный клуб Синергия</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/body.css" />
 
-        <link rel="apple-touch-icon" href="favicon-57.png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="favicon-57.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png" />
+    <link rel="icon" href="favicon.ico" sizes="16x16">
+    <!--<link rel="icon" href="favicon-32.png" sizes="32x32">-->
+    <link rel="icon" href="favicon-48.png" sizes="48x48">
+    <link rel="icon" href="favicon-57.png" sizes="57x57">
+    <link rel="icon" href="favicon-64.png" sizes="64x64">
+    <link rel="icon" href="favicon-72.png" sizes="72x72">
+    <link rel="icon" href="favicon-114.png" sizes="114x114">
+    <link rel="icon" href="favicon-128.png" sizes="128x128">
+    <link rel="icon" href="favicon-512.png" sizes="512x512">
 
-        <script src="js/signIn.js"></script>
+    <link rel="apple-touch-icon" href="favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png" />
 
-    </head>
-    <body>
+    <script src="js/signIn.js"></script>
 
-        <div id="foreground_wrapper">
+</head>
 
-            <div id="overlay_elements">
+<body>
 
-                <div id="content">
+    <div id="foreground_wrapper">
+
+        <div id="overlay_elements">
+
+            <div id="content">
+
+                <div>
+                    <img id="logo" src="img/logos/synergy-logo.png" width="431" height="431">
+                </div>
+
+                <div id="loginBox">
 
                     <div>
-                        <img id="logo" src="img/synergy-logo.png" width="431"
-                            height="431">
+                        <input class="inputTextBox" id="login" placeholder="Введите логин"></input>
                     </div>
 
-                    <div id="loginBox">
-
-                        <div>
-                            <input class="inputTextBox" id="login" placeholder="Введите логин"></input>
-                        </div>
-
-                        <div>
-                            <input class="inputTextBox" id="password" placeholder="Введите пароль"></button>
-                        </div>
-
-                    </div>
-
-                    <div id="buttonSignInBox">
-                        <button class="buttonSignIn" onclick="signIn()">Войти</button>
-                    </div>
-
-                    <div id="statusBox">
-                        <text id="statusText"></text>
+                    <div>
+                        <input class="inputTextBox" id="password" placeholder="Введите пароль"></button>
                     </div>
 
                 </div>
 
-                <div id="footer"><a href="mailto:welcome@synergyhockeyclub.ru">welcome@synergyhockeyclub.ru</a></div>
+                <div id="buttonSignInBox">
+                    <button class="buttonSignIn" onclick="signIn()">Войти</button>
+                </div>
+
+                <div id="statusBox">
+                    <text id="statusText"></text>
+                </div>
+
+            </div>
+
+            <div id="footer">
+
+                <div id="mail">
+
+                    <a href="mailto:welcome@synergyhockeyclub.ru"><img id="mail_logo_img" style="vertical-align: middle; padding-right: 5px;"
+                            src="img/logos/mail-logo.png" width="32" height="32">welcome@synergyhockeyclub.ru</a>
+
+                </div>
+
+                <div id="youtube">
+
+                    <a href="https://www.youtube.com/@SynergyHockeyClub/"><img id="youtube_logo_img" style="vertical-align: middle; padding-right: 5px;"
+                            src="img/logos/youtube-logo.png" width="32" height="32">https://www.youtube.com/@SynergyHockeyClub/</a>
+
+                </div>
 
             </div>
 
         </div>
 
-        <div id="img1">
-            <img id="pict1" src="img/00078.jpg">
-        </div>
+    </div>
 
-        <div id="img2">
-            <img id="pict2" src="img/00080.jpg">
-        </div>
+    <div id="img1">
+        <img id="pict1" src="img/photos/00078.jpg">
+    </div>
 
-        <script src="js/changeImgs.js"></script>
+    <div id="img2">
+        <img id="pict2" src="img/photos/00080.jpg">
+    </div>
 
-    </body>
+    <script src="js/changeImgs.js"></script>
+
+</body>
+
 </html>
