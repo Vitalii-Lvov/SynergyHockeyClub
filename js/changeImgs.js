@@ -199,6 +199,6 @@ function checkMaxBorder() {
 }
 
 function flFolder() {
-	var p = "img/";
+	var p = "img/photos/";
 	return p;
 }
